@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: caller-service
+server:
+  port: 8080
+
+clients:
+  echo-service:
+    url: "http://localhost:8081"
+  decorate-service:
+    url: "http://localhost:8082"

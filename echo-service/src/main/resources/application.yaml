@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: echo-service
+server:
+  port: 8081
